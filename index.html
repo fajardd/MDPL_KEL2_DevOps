@@ -166,6 +166,31 @@
 							<br>Dalam penamaan data store ini diisi sesuai dengan data apa yang disimpan seperti gaji, golongan, karyawan dan lain-lain.
 							</p>
 						<img src="assets/image/datastore_dfd.png" alt="image scrum" width="400px" height="auto">
+					
+					
+					<p><strong>2.7	Entity Relationship Diagram (ERD)<br></p>
+					<p style="text-indent: 0.5in;"></strong>ERD adalah model atau rancangan untuk membuat database, supaya lebih mudah dalam menggambarkan data yang memiliki hubungan atau relasi dalam bentuk sebuah desain. Dengan adanya ER diagram, maka sistem database yang terbentuk dapat digambarkan dengan lebih terstruktur dan terlihat rapi.
+						ERD biasanya erat kaitannya dengan Data Flow Diagram (DFD) untuk menampilkan sebuah data store. Tujuannya adalah untuk memvisualisasikan bagaimana proses data dapat saling terhubung dan dapat mengkonstruksi data relasional.<br> Berikut ini adalah  beberapa penjelasan mengenai istilah dan komponen apa saja yang berada pada ERD :
+						</p>
+						<img src="assets/image/komponen_erd.jpg" alt="image scrum" width="400px" height="auto">
+					<p style="margin-left: 20px;">•	Entitas</p>
+					<p style="text-indent: 0.5in;">Entitas adalah sebuah objek berwujud nyata yang dapat dibedakan dengan objek lainnya. Objeknya dapat bersifat konkret maupun abstrak. Data konkret adalah sesuatu yang benar-benar ada atau dapat dirasakan oleh alat indra, sedangkan abstrak tidak berwujud.
+						Orang, buku, pegawai, perusahaan merupakan jenis entitas konkret. Berbeda dengan mata kuliah, kejadian, pekerjaan adalah benda tak berwujud.
+						</p>
+					<p style="margin-left: 20px;">•	Attribut/field </p>
+					<p style="text-indent: 0.5in;">Setiap entitas memiliki atribut untuk mendeskripsikan karakteristik dari suatu entitas. Untuk jenisnya dibedakan menjadi beberapa jenis, yaitu:
+						<br>Atribut key, atribut yang unik dan berbeda. Misalnya, Nomor pokok mahasiswa (NPM), NIM dan nomor pokok lainnya. 
+						<br>Atribut Composite, atribut yang terdiri dari beberapa sub atribut yang memiliki arti tertentu. Contohnya, nama lengkap yang dipecah menjadi nama depan, tengah, dan belakang. 
+						<br>Dan atribut deviratif, yang dihasilkan dari atribut atau relasi lain. Jenis atribut ini tidak wajib ditulis dalam diagram ER atau pun disimpan dalam database. Sebagai contoh deriative attribute adalah usia, kelas, selisih harga, dan lain-lain.
+						</p>
+					<p style="margin-left: 20px;">•	Relasi </p>
+					<p style="text-indent: 0.5in;">hubungan antar entitas untuk menunjukkan adanya koneksi di antara sejumlah entitas yang berasal dari himpunan entitas berbeda. Misalnya, dalam hubungan entitas sistem akademik antara mahasiswa dan mata kuliah adalah “mengambil”.  Mahasiswa mengambil mata kuliah.
+						<br>Dalam ERD terdapat kardinalitas relasi atau rasio kardinalitas untuk memetakan bagaimana data berhubungan satu sama lain yang terbagi menjadi empat, yaitu:
+						</p>
+					<p style="text-indent: 0.5in;">Pengertian ERD Pertama, One to One (1:1). Apa maksud dari satu ke satu ini? Misalnya terdapat entitas A dan B. Setiap entitas pada himpunan entitas A berhubungan paling banyak dengan satu entitas pada himpunan entitas B, begitu pun sebaliknya. Jadi, setiap anggota entitas A hanya boleh berhubungan dengan satu anggota entitas B saja. Contohnya, satu siswa (1) memiliki satu nomor siswa (1), dan sebaliknya.</p>
+					<p style="text-indent: 0.5in;">Pengertian ERD Kedua, One to many (1:M). Satu ke Banyak ini maksudnya adalah setiap entitas pada himpunan entitas A dapat berhubungan dengan banyak entitas pada himpunan entitas B. Dengan kata lain, setiap anggota entitas A dapat berhubungan dengan lebih dari satu anggota entitas B. Akan tetapi, tidak sebaliknya. Contoh dari relasi One to Many ini adalah satu kelas (1) berisi banyak siswa (M), atau siswa mengikuti banyak ekstrakurikuler.</p>
+					<p style="text-indent: 0.5in;"> Pengertian ERD Ketiga, Many to One (M:1). Relasi ini merupakan kebalikan dari relasi sebelumnya. Untuk contohnya, yaitu banyak pegawai (M) bekerja dalam satu departemen (1), atau banyak dosen mengajar dalam satu mata kuliah. </p>
+					<p style="text-indent: 0.5in;">Pengertian ERD Keempat, Many to Many (M:N). Setiap entity pada kumpulan entitas A dapat berhubungan dengan banyak entitas pada kumpulan data entitas B. Misalnya, banyak siswa (M) mempelajari banyak pelajaran (N). Demikian pula sebaliknya, banyak pelajaran (N) dipelajari banyak siswa (M). (Sulthon, 2021)</p>
 
 				</ul>	
 			</td>	
